@@ -1,0 +1,443 @@
+:root {
+
+  --primary-700:#32425C;    /* заголовки, фон навигации, фон в табах, футер навигация*/        
+  --primary-800:#293449;    /* строка на которой лого, футер низ */
+  --primary-900:#212A3A;    /* фон у соц */
+
+  --secondary-400:#EE3643;    /* кнопки */
+  --secondary-500:#CA2C37;    /* наведение */
+  --secondary-600:#BA2732;    /* клик */
+
+  --base-white:#FFFFFF;
+  --base-25:#F9F5F0;    /* фон заголовков блоков  */
+  --base-50:#F1F5F7;    /* фон в хэдере и сервисы */
+  --base-75: #F3F7F9;
+  --base-100:#C5C5C5;   /* имя профиля клик */
+  --base-200:#A9A9A9;   /* старая цена */
+  --base-black:#000000;
+
+  --buy-btn-200:#5FBB2D;    /* кнопки*/
+  --buy-btn-300:#63A63E;    /* наведение на оформить заказ*/
+  --buy-btn-400:#518534;    /* клик на купить*/
+
+  --accent-link:#FFD180;    /* цвет ссылки (клик опасити 0.5)*/
+
+  --special-slider-1:#FFBF47;     /* фон в слайдере*/
+  --special-slider-2:#3BBCE3;
+  --special-slider-3:#DC91D8;
+  --special-slider-4:#8ED78F;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+body {
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-top {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  background-color: var(--primary-800);
+}
+
+.header-top__search::placeholder {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--base-white);
+}
+
+.header-top__checkout {
+  color: var(--base-white);
+}
+
+.list-top {
+  list-style: none;
+}
+
+.list-top__link {
+  color: var(--base-white);
+}
+
+.header-contacts {
+  background-color: var(--base-50);
+}
+
+.header-contacts__title {
+  font-family: "Cuprum";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--secondary-400);
+}
+
+.header-contacts__tel {
+  font-family: "Cuprum";
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--secondary-400);
+}
+
+.header-contacts__address {
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--primary-700);
+}
+
+.header-contacts__btn {
+  font-family: "Cuprum";
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--base-black);
+}
+
+.main-navigation {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  background-color: var(--primary-800);
+}
+
+.nav_list {
+  list-style: none;
+}
+
+.nav__link {
+  color: var(--base-white);
+}
+
+.categories__list {
+  list-style: none;
+  font-family: "Cuprum";
+}
+
+.item-categories__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--base-white);
+}
+
+.item-categories__link {
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--base-white);
+  text-transform: uppercase;
+}
+
+.item-categories__materials {
+  background-color: var(--special-slider-1);
+}
+
+.item-categories__tool {
+  background-color: var(--special-slider-2);
+}
+
+.item-categories__equipment {
+  background-color: var(--special-slider-3);
+}
+
+.item-categories__discount {
+  background-color: var(--special-slider-4);
+}
+
+.item-categories__delivery {
+  background-color: var(--special-slider-1);
+}
+
+.slider__link {
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--base-white);
+}
+
+.item-slider__title {
+  font-family: Cuprum;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--base-white);
+}
+
+.item-slider__subtitle {
+  font-family: Cuprum;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--base-white);
+}
+
+.products__header {
+  background-color: var(--base-25);
+}
+
+.header-products__title {
+  font-family: Cuprum;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--primary-700);
+}
+
+.header-products__link {
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--base-white);
+}
+
+.manufacturers__header {
+  background-color: var(--base-25);
+}
+
+.header-manufacturers__title {
+  font-family: Cuprum;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--primary-700);
+}
+
+.header-manufacturers__link {
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--base-white);
+}
+
+.list-products__item {
+  font-family: "PT Sans";
+}
+
+.list-products__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--base-black);
+}
+
+.list-products__old-price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: var(--base-200);
+}
+
+.list-products__current-price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.list-products__btn {
+  color: var(--base-white);
+  background-color: var(--secondary-400);
+  padding: 10px;
+}
+
+.services {
+  background-color: var(--base-50);
+}
+
+.services__title {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.services__text {
+  font-family: PT Sans;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--base-black);
+}
+
+.services__list {
+  list-style: none;
+}
+
+.list-services__link {
+  text-decoration: none;
+  font-family: "Cuprum";
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--primary-700);
+}
+
+.tabcontent-services__title {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--primary-700);
+}
+
+.tabcontent-services__text {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--base-black);
+}
+
+.about__title {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.about__desc {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--base-black);
+}
+
+.about__list {
+  list-style: none;
+}
+
+.list-about__item {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--base-black);
+}
+
+.contacts__title {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.contacts__text {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--base-black);
+}
+
+.main-footer__nav {
+  background-color: var(--primary-700);
+}
+
+.nav-footer__navigator {
+  list-style: none;
+}
+
+.navigator-footer__link {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--base-50);
+}
+
+
+.nav-footer__subnavigator {
+  list-style: none;
+  background-color: var(---primary-700);
+}
+
+.subnavigator-footer__link {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--accent-link);
+}
+
+.nav-footer__address {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--base-75);
+}
+
+.nav-footer__tel {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--base-75);
+}
+
+.main-footer__copyright {
+  background-color: var(--primary-800);
+}
+
+.copyright-footer__title {
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--base-white);
+}
+
+.copyright-footer__copyrighting {
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--base-white);
+}
+
+.copyright-footer__social {
+  list-style: none;
+}
+
+.copyright-footer__feedback {
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--base-white);
+}
+
+.copyright-footer__feedback a {
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--accent-link);
+}
+
+.copyright-footer__developer {
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--base-white);
+}
+
+.copyright-footer__developer a {
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--accent-link);
+}
+
+
