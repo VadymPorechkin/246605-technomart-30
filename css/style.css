@@ -13,6 +13,7 @@
   --base-50:#F1F5F7;    /* фон в хэдере и сервисы */
   --base-75: #F3F7F9;
   --base-100:#C5C5C5;   /* имя профиля клик */
+  --base-125:#F7F3EC;
   --base-200:#A9A9A9;   /* старая цена */
   --base-black:#000000;
 
@@ -225,6 +226,10 @@ img {
   line-height: 18px;
   text-transform: uppercase;
   color: var(--base-white);
+}
+
+.list-products {
+  list-style: none;
 }
 
 .list-products__item {
@@ -440,4 +445,223 @@ img {
   color: var(--accent-link);
 }
 
+/*стили для   catalog.html*/
 
+.user-profile__profile-name {
+  background-color: var(--base-white);
+}
+
+.user-profile__profile-name {
+  font-family: "Cuprum";
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--base-black);
+}
+
+.user-profile__my-orders a {
+  text-decoration: none;
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--primary-700);
+}
+
+.user-profile__personal-area a {
+  text-decoration: none;
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--primary-700);
+}
+
+.catalog-content__title {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--primary-700);
+  text-transform: uppercase;
+
+  background-color: var(--base-50);
+}
+
+.breadcrumbs-list {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  list-style: none;
+  color: var(--base-black);
+}
+
+.breadcrumbs-list__item {
+  color: var(--base-black);
+}
+
+.breadcrumbs-list__link {
+  text-decoration: none;
+  color: var(--base-black);
+}
+
+.sortlist-content {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: var(--base-125);
+}
+
+.sortlist-content__link {
+  text-decoration: none;
+  color: var(--base-black);
+}
+
+.sortlist-content__sorting {
+  color: var(--base-black);
+}
+
+.sortlist-content__forprice {
+  color: var(--secondary-400);
+}
+
+.sortlist-content__fortype {
+  opacity: 0.3;
+}
+
+.sortlist-content__forfunctional {
+  opacity: 0.3;
+}
+
+.filters-content__subtitle {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: var(--base-125);
+}
+
+.price-filter {
+  border: none;
+}
+
+.price-filter__subtitle {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.manufacturers-filter__subtitle {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.power-filter__subtitle {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.manufacturers-filter {
+  border: none;
+}
+
+.list-manufacturersfilter {
+  list-style: none;
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.power-filter {
+  border: none;
+}
+
+.power-filter__name {
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.items-product {
+  list-style: none;
+}
+
+.product-item {
+  font-family: "PT Sans";
+}
+
+.product-link__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--base-black);
+}
+
+.product-link__old-price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: var(--base-200);
+}
+
+.product-link__current-price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.current-price__btn {
+  color: var(--base-white);
+  background-color: var(--secondary-400);
+  padding: 10px;
+}
+
+.pagination-content {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.pagination-content__link {
+  color: var(--base-black);
+}
+
+.link_content__current {
+  background-color: var(--secondary-400);
+}
+
+.text-catalog {
+  background-color: var(--base-50);
+}
+
+.text-catalog__title {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--base-black);
+}
+
+.text-catalog__desc {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--base-black);
+}
