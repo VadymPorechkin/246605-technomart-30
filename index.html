@@ -98,8 +98,8 @@
         <section class="slider">
           <h2 class="slider__title visually-hidden">Слайдер</h2>
           <a class="slider__link" href="#">Открыть каталог</a>
-          <button class="slider__control slider__control-left" type="button"></button>
-          <button class="slider__control slider__control-right" type="button"></button>
+          <button class="slider__control slider__control-left" type="button" aria-label="Previous slide"></button>
+          <button class="slider__control slider__control-right" type="button" aria-label="Next slide"></button>
           <article class="slider__item item-slider">
             <h3 class="item-slider__title">Перфораторы </h3>
             <p class="item-slider__subtitle">Настоящие мужские игрушки</p>
@@ -120,41 +120,80 @@
           <h3 class="header-products__title">Популярные товары</h3>
           <a class="header-products__link" href="#">Все популярные товары</a>
         </header>
-        <ul class="products__list list-products">
+        <ul class="products__list">
 
-          <li class="list-products__item">
-            <img class="list-products__img" src="./img/product/snippet-945bosch9000.jpg" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
-            <h3 class="list-products__title">Перфоратор BOSCH BFG 9000</h3>
-            <p class="list-products__old-price">32500 Р.</p>
-            <p class="list-products__current-price">
-              <a class="list-products__btn" href="#">25500 Р.</a>
+          <li class="product-item">
+            <p class="product-item__buy buy-item">
+              <img class="buy-item__icon" src="https://via.placeholder.com/15x15" alt="Иконка корзины">
+              <button class="buy-item__btn" type="button">Купить</button>
             </p>
+            <p class="product-item__bookmarks bookmarks-item">
+              <button class="bookmarks-item__btn" type="button">В закладки</button>
+            </p>
+            <a class="product-item__link product-link" href="#">
+              <p>
+               <img class="product-link__img" src="./img/product/snippet-945bosch9000.jpg" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
+              </p>
+              <h3 class="product-link__title">Перфоратор BOSCH BFG 9000</h3>
+            </a>
+            <p class="product-link__old-price">32500 Р.</p>
+            <p class="product-link__current-price">25500 Р.</p>
           </li>
-          <li class="list-products__item">
-            <img class="list-products__img" src="./img/product/snippet-18927bosch3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
-            <img class="list-products__label" src="https://via.placeholder.com/100x30" alt="Ярлык NEW">
-            <h3 class="list-products__title">Перфоратор BOSCH BFG 3000</h3>
-            <p class="list-products__old-price">22500 Р. </p>
-            <p class="list-products__current-price">
-              <a class="list-products__btn" href="#">15500 Р.</a>
+
+          <li class="product-item">
+            <p class="product-item__buy buy-item">
+              <img class="buy-item__icon" src="https://via.placeholder.com/15x15" alt="Иконка корзины">
+              <button class="buy-item__btn" type="button">Купить</button>
             </p>
+            <p class="product-item__bookmarks bookmarks-item">
+              <button class="bookmarks-item__btn" type="button">В закладки</button>
+            </p>
+            <a class="product-item__link product-link" href="#">
+              <p>
+                <img class="product-link__img" src="./img/product/snippet-18927bosch3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+                <img class="product-link__label" src="https://via.placeholder.com/100x30" alt="Ярлык NEW">
+              </p>
+              <h3 class="product-link__title">Перфоратор BOSCH BFG 3000</h3>
+            </a>
+            <p class="product-link__old-price">22500 Р. </p>
+            <p class="product-link__current-price">15500 Р.</p>
           </li>
-          <li class="list-products__item">
-            <img class="list-products__img" src="./img/product/snippet-32961bosch6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
-            <h3 class="list-products__title">Перфоратор BOSCH BFG 6000</h3>
-            <p class="list-products__old-price">30500 Р. </p>
-            <p class="list-products__current-price">
-              <a class="list-products__btn" href="#">25500 Р.</a>
+
+          <li class="product-item">
+            <p class="product-item__buy buy-item">
+              <img class="buy-item__icon" src="https://via.placeholder.com/15x15" alt="Иконка корзины">
+              <button class="buy-item__btn" type="button">Купить</button>
             </p>
+            <p class="product-item__bookmarks bookmarks-item">
+              <button class="bookmarks-item__btn" type="button">В закладки</button>
+            </p>
+            <a class="product-item__link product-link" href="#">
+              <p>
+                <img class="product-link__img" src="./img/product/snippet-32961bosch6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
+              </p>
+              <h3 class="product-link__title">Перфоратор BOSCH BFG 6000</h3>
+            </a>
+            <p class="product-link__old-price">30500 Р. </p>
+            <p class="product-link__current-price">25500 Р.</p>
           </li>
-          <li class="list-products__item">
-            <img class="list-products__img" src="./img/product/snippet-18927bosch2000.png" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
-            <img class="list-products__label" src="https://via.placeholder.com/100x30" alt="Ярлык NEW">
-            <h3 class="list-products__title">Перфоратор BOSCH BFG 2000</h3>
-            <p class="list-products__old-price">22500 Р.</p>
-            <p class="list-products__current-price">
-              <a class="list-products__btn" href="#">12500 Р.</a>
+
+          <li class="product-item">
+            <p class="product-item__buy buy-item">
+              <img class="buy-item__icon" src="https://via.placeholder.com/15x15" alt="Иконка корзины">
+              <button class="buy-item__btn" type="button">Купить</button>
             </p>
+            <p class="product-item__bookmarks bookmarks-item">
+              <button class="bookmarks-item__btn" type="button">В закладки</button>
+            </p>
+            <a class="product-item__link product-link" href="#">
+              <p>
+                <img class="product-link__img" src="./img/product/snippet-18927bosch2000.png" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
+                <img class="product-link__label" src="https://via.placeholder.com/100x30" alt="Ярлык NEW">
+              </p>
+                <h3 class="product-link__title">Перфоратор BOSCH BFG 2000</h3>
+            </a>
+            <p class="product-link__old-price">22500 Р.</p>
+            <p class="product-link__current-price">12500 Р.</p>
           </li>
         </ul>   
       </section>
@@ -231,19 +270,19 @@
             к вашему подъезду совершенно бесплатно!
             Ведь мы неплохо заработаем, 
             поднимая его на ваш этаж!</p>
-          <img class="tabcontent-services__img" src="https://via.placeholder.com/468x261" alt="Автомабиль доставки">
+          <img class="tabcontent-services__img" src="./img/tabs/Layer1311.png" alt="Автомабиль доставки">
         </article>
 
         <article class="services__tabcontent tabcontent-services">
           <h3 class="tabcontent-services__title">Гарантия</h3> 
           <p class="tabcontent-services__text">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием,  вы всегда можете быть     уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-          <img class="tabcontent-services__img" src="https://via.placeholder.com/468x261" alt="Знак 100%">
+          <img class="tabcontent-services__img" src="./img/tabs/Layer130.png" alt="Знак 100%">
         </article>
 
         <article class="services__tabcontent tabcontent-services">
           <h3 class="tabcontent-services__title">Кредит</h3>
           <p class="tabcontent-services__text">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-          <img class="tabcontent-services__img" src="https://via.placeholder.com/468x261" alt="Бланк кредитного договора.">
+          <img class="tabcontent-services__img" src="./img/tabs/Layer119.jpg" alt="Бланк кредитного договора.">
           <a class="tabcontent-services__link" href="#">Отправить заявку</a>
         </article>
       </section>
@@ -265,7 +304,7 @@
         <h2 class="contacts__title">Контакты</h2> 
         <p class="contacts__text">Вы можете забрать товар сами,<br> 
           заехав в наш офис:</p>  
-        <img class="contacts__img" src="https://via.placeholder.com/300x158" alt="Карта проезда. г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 ">
+        <img class="contacts__img" src="./img/map/map.png" alt="Карта проезда. г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 ">
         <button class="contacts__btn" type="submit">Заблудились? Напишите нам!</button>
       </section>
 
@@ -334,3 +373,5 @@
     </main>
   </body>
 </html>
+
+

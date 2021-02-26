@@ -228,41 +228,8 @@ img {
   color: var(--base-white);
 }
 
-.list-products {
+.products__list {
   list-style: none;
-}
-
-.list-products__item {
-  font-family: "PT Sans";
-}
-
-.list-products__title {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 20px;
-  color: var(--base-black);
-}
-
-.list-products__old-price {
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 18px;
-  text-decoration-line: line-through;
-  text-transform: uppercase;
-  color: var(--base-200);
-}
-
-.list-products__current-price {
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-
-.list-products__btn {
-  color: var(--base-white);
-  background-color: var(--secondary-400);
-  padding: 10px;
 }
 
 .services {
@@ -574,6 +541,10 @@ img {
   border: none;
 }
 
+.manufacturers__list {
+  list-style: none;
+}
+
 .list-manufacturersfilter {
   list-style: none;
   font-family: "PT Sans";
@@ -624,9 +595,7 @@ img {
   font-size: 17px;
   line-height: 18px;
   text-transform: uppercase;
-}
 
-.current-price__btn {
   color: var(--base-white);
   background-color: var(--secondary-400);
   padding: 10px;
